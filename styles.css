@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    background-color: #f403e600;
+    font-family:sans-serif ;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: #144816;
+    border: 3px solid #34270e;
+    position: relative;
+    
+}
+
+.nav h1{
+    margin: 0 .5em;
+    font-size: 2em;
+    color: whitesmoke;
+    padding: .2em 0;
+    
+}
+
+.nav button{
+    background-color:black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+}
+
+.catalogue{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container-product{
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+}
+
+.container-product:hover {
+   box-shadow: 0 8px 16px 0 rgba(221, 11, 11, 0.2);
+    
+  }
+
+.container-product img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+.button-add {
+    transition-duration: 0.4s;
+    background-color: #194dd3; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+ }
+  
+  .button-add:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
